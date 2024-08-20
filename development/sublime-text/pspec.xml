@@ -12,7 +12,7 @@
         <IsA>app:gui</IsA>
         <Summary>Sophisticated text editor</Summary>
         <Description>Sublime Text is a sophisticated text editor for code, markup and prose.</Description>
-        <Archive sha1sum="65a4c4fd6472b8f42fcbaaba7238c2f9512ba489" type="tarxz">https://download.sublimetext.com/sublime_text_build_4180_x64.tar.xz</Archive>
+        <Archive sha1sum="5ef1e4ddf927cf46979708b8e751b44ac9738e87" type="tarxz">https://download.sublimetext.com/sublime_text_build_4180_x64.tar.xz</Archive>
     </Source>
 
     <Package>
