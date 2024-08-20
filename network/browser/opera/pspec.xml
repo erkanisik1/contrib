@@ -12,7 +12,7 @@
         <Description>Opera Web Browser</Description>
         <License>EULA</License>
         <Icon>opera</Icon>
-        <Archive sha1sum="0080228c46397992b6f5bd57b0b9bf1bd8145a40" type="binary">https://get.opera.com/pub/opera/desktop/111.0.5168.61/linux/opera-stable_111.0.5168.61_amd64.deb</Archive>
+        <Archive sha1sum="50c3ae1d2dd3698192e9285a0466743db968c4eb" type="binary">https://get.opera.com/pub/opera/desktop/112.0.5197.53/linux/opera-stable_112.0.5197.53_amd64.deb</Archive>
     </Source>
     <Package>
         <Name>opera-stable</Name>
@@ -63,6 +63,13 @@
     </Package>
 
     <History>
+        <Update release="38">
+            <Date>2024-08-20</Date>
+            <Version>112.0.5197.53</Version>
+            <Comment>Opera version bump.</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="37">
             <Date>2024-07-11</Date>
             <Version>111.0.5168.61</Version>
