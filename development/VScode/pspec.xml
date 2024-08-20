@@ -34,6 +34,7 @@
             <Comment>Version Bump</Comment>
             <Name>Erkan IŞIK</Name>
             <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="34">
             <Date>2024-07-11</Date>
             <Version>1.91.1</Version>
