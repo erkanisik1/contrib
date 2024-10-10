@@ -12,8 +12,8 @@
         <Icon>brave-browser</Icon>
         <Summary>A web browser that stops ads and trackers by default</Summary>
         <Description>A web browser that stops ads and trackers by default</Description>
-        <Archive sha1sum="2cfdadb270f742171608558be90f2785b02f288f" type="binary">
-        https://github.com/brave/brave-browser/releases/download/v1.68.141/brave-browser-1.68.141-linux-amd64.zip
+        <Archive sha1sum="059a718caa4efa94c462607594f57f36d9f844b7" type="binary">
+            https://github.com/brave/brave-browser/releases/download/v1.70.126/brave-browser-1.70.126-linux-amd64.zip
         </Archive>
     </Source>
 
@@ -43,6 +43,13 @@
     </Package>
 
     <History>
+        <Update release="30">
+            <Date>2024-10-11</Date>
+            <Version>1.70.126</Version>
+            <Comment>Version Bump</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="29">
             <Date>2024-08-20</Date>
             <Version>1.68.141</Version>
