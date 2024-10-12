@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://pisilinux.org/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>rlinux</Name>
+        <Homepage>http://www.r-tt.com</Homepage>
+        <Packager>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Packager>
+        <License>GPLv3</License>
+        <IsA>app:gui</IsA>
+        <Summary>R-Linux is a file recover utility for the Ext2/3/4FS file system used in the Linux OS and several Unixes.</Summary>
+        <Description>R-Linux
+            R-Linux is a file recover utility for the Ext2/3/4FS file system used in the Linux OS and several Unixes. R-Linux uses unique IntelligentScan technology and flexible parameter settings to give you real control over the fastest data recovery ever seen. It recovers files from existing partitions even when file records are lost. R-Linux is a lite version of more powerful file recover utility R-Studio. R-Studio utilizes the IntelligentScan technology to its full extent, and therefore can recover data from partitions with broken file systems. Also, R-Studio recovers data over network.
+           </Description>
+        <Archive sha1sum="cb62ffdaec688d458ae9f15be13efdc774ee91cb" type="binary">https://www.r-studio.com/downloads/RLinux6_x64.deb</Archive>
+    </Source>
+
+    <Package>
+        <Name>rlinux</Name>
+        <RuntimeDependencies>
+            <Dependency>xdg-utils</Dependency>            
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/</Path>         
+           
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile target="/usr/share/applications/rlinux.desktop" owner="root">rlinux.desktop</AdditionalFile>
+            <AdditionalFile target="/usr/share/icons/rlinux.png">rlinux.png</AdditionalFile>
+        </AdditionalFiles>
+        
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>2024-10-10</Date>
+            <Version>6.3.191253</Version>
+            <Comment>First release</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
+    </History>
+</PISI>

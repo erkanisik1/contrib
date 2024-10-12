@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rlinux
+Comment=R-Linux is a file recover utility for the Ext2/3/4FS file system used in the Linux OS and several Unixes.
+GenericName=rlinux
+Exec=/usr/local/R-Linux/bin/rlinux
+Icon=/usr/share/icons/rlinux.png
+Type=Application
+StartupNotify=true
+Categories=System;
+Keywords=data;recovery;
