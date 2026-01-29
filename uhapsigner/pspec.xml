@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "http://www.pisilinux.org/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>uhapsigner</Name>
+        <Homepage>https://www.arksigner.com/</Homepage>
+        <Packager>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Packager>
+        <Summary>UHAP İmzalama Aracı</Summary>
+        <Description>UHAP İmzalama Aracı</Description>
+        <License>EULA</License>
+        <Archive type="binary" sha1sum="e01094d66cb39aa98fb126e70a3ad5d1aa2c4a1d">
+            https://github.com/erkanisik1/Sources/raw/refs/heads/main/uhapsigner_2.0.4_amd64.deb
+        </Archive>
+    </Source>
+
+    <Package>
+        <Name>uhapsigner</Name>
+        <RuntimeDependencies>
+            <Dependency>jre-openjdk</Dependency>
+            <Dependency>jdk-openjdk</Dependency>
+            <Dependency>jdk8-openjdk</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="data">/usr/</Path>
+        </Files>                       
+         <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/bin/uhapsigner">uhapsigner</AdditionalFile>
+        </AdditionalFiles>
+    </Package>
+
+    <History>
+       
+        <Update release="1">
+            <Date>2026-01-08</Date>
+            <Version>2.0.4</Version>
+            <Comment>First release</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
+    </History>
+</PISI>
