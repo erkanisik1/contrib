@@ -13,8 +13,8 @@
         <Description xml:lang="tr">Sizi akış halinde tutmak için tasarlanmış, anlık ve paha biçilmez yapay zeka geliştirici desteği sunan, geleceğin editörü bugün karşınızda.</Description>
         <PartOf>development</PartOf>
         <License>custom</License>
-        <Archive sha1sum="77f2fc1c05bf137256998bda5886510788482f64" type="targz">
-            https://windsurf-stable.codeiumdata.com/linux-x64/stable/a473c86f69ab6b6f98bc47437adc6263df8738d0/Windsurf-linux-x64-1.13.9.tar.gz
+        <Archive sha1sum="6dbf8909ca44e89e0a8721628040f49790e4ca59" type="targz">
+            https://windsurf-stable.codeiumdata.com/linux-x64/stable/cb270b70c3a55fd43530de48988912a8d9cccb20/Windsurf-linux-x64-1.9544.35.tar.gz
         </Archive>
     </Source>
 
@@ -54,8 +54,14 @@
         </AdditionalFiles>
     </Package>
 
-    <History>
-    
+    <History>    
+        <Update release="27">
+            <Date>2026-02-08</Date>
+            <Version>1.9544.35</Version>
+            <Comment>Version Bump</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="26">
             <Date>2026-01-24</Date>
             <Version>1.13.9</Version>
