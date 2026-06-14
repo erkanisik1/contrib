@@ -16,8 +16,8 @@
             <Email>erkanisik@pisilinux.org</Email>
         </Packager>
         <License>Mozilla Public License 2.0</License>
-        <Archive sha1sum="d83a489f8188d36395f92a8d1c875ded7975d4b6" type="binary">
-           https://github.com/brave/brave-browser/releases/download/v1.91.71/brave-browser-nightly-1.91.71-linux-amd64.zip
+        <Archive sha1sum="47a27b75662eb64c52bc15c3647761e75b5703e3" type="binary">
+           https://github.com/brave/brave-browser/releases/download/v1.93.7/brave-browser-nightly-1.93.7-linux-amd64.zip
         </Archive>
         <!-- https://github.com/brave/brave-browser/ -->
     </Source>
@@ -42,12 +42,19 @@
             <Path fileType="data">/usr/share/icons</Path>
         </Files>
         <AdditionalFiles>
-            <AdditionalFile target="/usr/share/applications/brave-browser.desktop" owner="root">brave-browser.desktop</AdditionalFile>
-            <AdditionalFile target="/usr/share/icons/brave-logo.png" owner="root">brave-logo.png</AdditionalFile>
+            <AdditionalFile target="/usr/share/applications/brave-browser-nightly.desktop" owner="root">brave-browser-nightly.desktop</AdditionalFile>
+            <AdditionalFile target="/usr/share/icons/brave_nightly.png" owner="root">brave_nightly.png</AdditionalFile>
         </AdditionalFiles>
     </Package>
 
     <History>
+        <Update release="45">
+            <Date>2026-05-29</Date>
+            <Version>1.93.7</Version>
+            <Comment>Version Bump to 1.93.7</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
     
         <Update release="44">
             <Date>2026-04-18</Date>

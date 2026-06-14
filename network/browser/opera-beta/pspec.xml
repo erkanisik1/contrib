@@ -11,7 +11,9 @@
         <Summary>Opera Web Browser Developer version</Summary>
         <Description>Opera Web Browser Developer Version</Description>
         <License>EULA</License>
-        <Archive sha1sum="13ee6400a2f8fac1dcd18a579c469d15bf09b50b" type="binary">https://get.geo.opera.com/pub/opera-beta/72.0.3815.133/linux/opera-beta_72.0.3815.133_amd64.deb</Archive>
+        <Archive sha1sum="13ee6400a2f8fac1dcd18a579c469d15bf09b50b" type="binary">
+            https://get.geo.opera.com/pub/opera-beta/72.0.3815.133/linux/opera-beta_72.0.3815.133_amd64.deb
+        </Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>

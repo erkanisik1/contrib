@@ -8,8 +8,8 @@ from pisi.actionsapi import pisitools, shelltools, get
 
 WorkDir = "."
 NoStrip = ["/"]
-
+Version = get.srcVERSION()
 def install():
     pisitools.dodir ("/opt/Ventoy")
-    pisitools.insinto("/opt/Ventoy", "ventoy-1.0.79/*")
+    pisitools.insinto("/opt/Ventoy", "ventoy-%s/*" % Version)
     pisitools.dosym("/opt/Ventoy/VentoyGUI.x86_64", "/usr/bin/Ventoy")

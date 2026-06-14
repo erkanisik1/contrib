@@ -14,8 +14,8 @@
         <Description xml:lang="tr">Opera, yerleşik VPN, reklam engelleyici, pil tasarrufu ve entegre sosyal medya mesajlaşma özelliklerine sahip hızlı, güvenli ve özellik zengini bir web tarayıcısıdır. Çalışma alanları, Flow senkronizasyonu, kripto cüzdanı ve AI destekli gezinme yardımı özelliklerini içerir.</Description>
         <License>EULA</License>
         <Icon>opera</Icon>
-        <Archive sha1sum="46bc55e1634bb5769450419814c368d2b9af2e48" type="binary">
-            https://download5.operacdn.com/ftp/pub/opera/desktop/130.0.5847.41/linux/opera-stable_130.0.5847.41_amd64.deb
+        <Archive sha1sum="5bbb94960cef57bd3c09d6ecda57800e0c6186ac" type="binary">
+            https://download5.operacdn.com/ftp/pub/opera/desktop/132.0.5905.11/linux/opera-stable_132.0.5905.11_amd64.deb
         </Archive>
         <!-- https://download5.operacdn.com/ftp/pub/opera/desktop/ -->
     </Source>
@@ -67,6 +67,13 @@
         </AdditionalFiles>
     </Package>
     <History>
+        <Update release="53">
+            <Date>2026-05-29</Date>
+            <Version>132.0.5905.11</Version>
+            <Comment>Version bump to 132.0.5905.11</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="52">
             <Date>2026-04-18</Date>
             <Version>130.0.5847.41</Version>

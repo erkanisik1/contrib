@@ -16,7 +16,7 @@
         <Description xml:lang="en">Google Chrome is a fast, secure, and modern web browser that combines minimal design with sophisticated technology. Features include built-in privacy protection, automatic updates, cross-platform synchronization, extensive extension support, and advanced developer tools.</Description>
         <Summary xml:lang="tr">Hızlı, güvenli ve modern web tarayıcısı, yerleşik gizlilik özellikleriyle</Summary>
         <Description xml:lang="tr">Google Chrome, minimal tasarımı gelişmiş teknolojiyle birleştiren hızlı, güvenli ve modern bir web tarayıcısıdır. Özellikler arasında yerleşik gizlilik koruması, otomatik güncellemeler, çapraz platform senkronizasyonu, geniş eklenti desteği ve gelişmiş geliştirici araçları bulunur.</Description>
-        <Archive sha1sum="76e35324141b31443672dc256126af7b7a9af623" type="binary">
+        <Archive sha1sum="495355aa370f6a62981c8252ae831c25ab43d162" type="binary">
             https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
         </Archive>       
     </Source>
@@ -79,7 +79,13 @@
     </Package>
     
     <History>
-        
+        <Update release="94">
+            <Date>2026-05-29</Date>
+            <Version>148.0.7778.215</Version>
+            <Comment>Version bump to 148.0.7778.215</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="93">
             <Date>2026-04-18</Date>
             <Version>147.0.7727.101</Version>

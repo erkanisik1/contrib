@@ -16,8 +16,8 @@
         <Summary xml:lang="tr">Hızlı, güvenli ve modern web tarayıcısı, AI özellikleri ve Microsoft entegrasyonuyla</Summary>
         <Description xml:lang="en">Microsoft Edge is a fast, secure, and modern web browser built on Chromium with AI-powered features, deep Microsoft 365 integration, vertical tabs, collections, and enterprise-grade security. Features include tracking prevention, password monitor, built-in PDF reader, and seamless sync across devices.</Description>
         <Description xml:lang="tr">Microsoft Edge, Chromium tabanlı hızlı, güvenli ve modern bir web tarayıcısıdır. AI özellikleri, Microsoft 365 entegrasyonu, dikey sekmeler, koleksiyonlar ve kurumsal düzeyde güvenlik sunar. Takip önleme, parola izleyici, yerleşik PDF okuyucu ve cihazlar arası sorunsuz senkronizasyon özelliklerini içerir.</Description>
-        <Archive sha1sum="2c85c6be884973918f05430ade3337137001b3cc" type="binary">        
-           https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/microsoft-edge-stable_147.0.3912.72-1_amd64.deb
+        <Archive sha1sum="922a222a7b7cc5d394955018941dc1a899e0c852" type="binary">        
+           https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/microsoft-edge-stable_148.0.3967.96-1_amd64.deb
         </Archive>     
         <!-- https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/ -->  
     </Source>
@@ -80,6 +80,13 @@
     </Package>
 
     <History>
+        <Update release="33">
+            <Date>2026-05-29</Date>
+            <Version>148.0.3967.96</Version>
+            <Comment>Version bump to 148.0.3967.96</Comment>
+            <Name>Erkan IŞIK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
         <Update release="32">
             <Date>2026-04-18</Date>
             <Version>147.0.3912.72</Version>

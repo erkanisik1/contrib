@@ -1,6 +1,6 @@
 [Desktop Entry]
 Categories=System;
-Comment[tr_TR]=eni bir çoklu önyüklemeli USB çözümü.
+Comment[tr_TR]=Yeni bir çoklu önyüklemeli USB çözümü.
 Comment=A new multiboot USB solution.
 Encoding=UTF-8
 Exec=/opt/Ventoy/VentoyGUI.x86_64

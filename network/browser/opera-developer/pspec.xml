@@ -11,10 +11,10 @@
         <Summary>Opera Web Browser Developer version</Summary>
         <Description>Opera Web Browser Developer Version</Description>
         <License>EULA</License>
-        <Archive sha1sum="0293888d79d175ac4c525162f127f4cf26addcdf" type="binary">https://get.geo.opera.com/pub/opera-developer/73.0.3847.0/linux/opera-developer_73.0.3847.0_amd64.deb</Archive>
-        <BuildDependencies>
-            <Dependency>binutils</Dependency>
-        </BuildDependencies>
+        <Archive sha1sum="77006ccc8b4a8075e0abefa283c2e0a178f966fa" type="binary">
+           https://get.geo.opera.com/pub/opera-developer/133.0.5910.0/linux/opera-developer_133.0.5910.0_amd64.deb
+        </Archive>
+        <!-- https://get.geo.opera.com/pub/opera-developer -->
     </Source>
 
     <Package>
@@ -71,6 +71,13 @@
     </Package>
 
     <History>
+        <Update release="6">
+            <Date>2026-05-29</Date>
+            <Version>133.0.5910.0</Version>
+            <Comment>Version bump</Comment>
+            <Name>Erkan İŞİK</Name>
+            <Email>erkanisik@pisilinux.org</Email>
+        </Update>
 		<Update release="5">
             <Date>2020-10-21</Date>
             <Version>73.0.3847.0</Version>
